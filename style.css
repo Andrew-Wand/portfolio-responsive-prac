@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+body, .main {
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.background-shape {
+    background-color: #1993b0;
+    position: absolute;
+    height: 2000px;
+    width: 100%;
+    top: -1700px;
+    transform: skewY(-20deg);
+    z-index: -1;
+}
+
+
+/* About section */
+
+.about-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    flex-flow: column;
+}
+
+
+.about-photo-container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.about-photo {
+    float: left;
+    object-fit: cover;
+    width: 230px;
+    height: 340px;
+}
+.photo-caption {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 58px;
+    font-weight: bold;
+
+}
+
+.about-header {
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 32px;
+}
+
+.about-content-container {
+    max-width: 295px;
+}
+
+.about-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: rgba(0, 0, 0, .6);
+}
+
+
+/*  */
