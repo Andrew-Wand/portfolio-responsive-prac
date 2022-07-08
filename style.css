@@ -56,7 +56,7 @@ body, .main {
     float: left;
     object-fit: cover;
     width: 230px;
-    height: 340px;
+    height: 240px;
 }
 .photo-caption {
     position: absolute;
@@ -180,7 +180,7 @@ body, .main {
     }
 
     .photo-caption {
-        top: 370px;
+        top: 500px;
         left: 35px;
         font-size: 3.5rem;
        
@@ -188,7 +188,7 @@ body, .main {
 
     .about-photo {
         min-width: 420px;
-        min-height: 500px;
+        min-height: 580px;
         float: left;
         object-fit: cover;
     }
