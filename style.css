@@ -163,3 +163,68 @@ body, .main {
 /* Desktop media queries */
 
 
+@media (min-width: 1281px) {
+    .background-shape {
+        transform: skewY(-16deg);
+        height: 2200px;
+    }
+
+    .about-spacer {
+        display: none;
+    }
+
+    .about-photo-container{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .photo-caption {
+        top: 370px;
+        left: 35px;
+        font-size: 3.5rem;
+       
+        }
+
+    .about-photo {
+        min-width: 420px;
+        min-height: 500px;
+        float: left;
+        object-fit: cover;
+    }
+
+    .about-section {
+        max-width: 827px;
+        display: flex;
+        align-items: center;
+        flex-flow: row;
+    }
+
+    .about-links-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .about-link {
+        font-size: 1.8rem;
+        margin-left: .4em;
+ 
+    }
+
+    .about-header {
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .about-content {
+        padding: 1em;
+        text-align: left;
+    }
+
+}
+  
+
+
+/*  */
+
+
