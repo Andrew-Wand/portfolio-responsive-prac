@@ -73,17 +73,21 @@ body, .main {
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
     font-size: 32px;
+    text-shadow: 2px 2px 12px rgba(150, 150, 150, 1);
 }
 
 .about-content-container {
     max-width: 295px;
     padding: 1rem;
+    
 }
 
 .about-content {
     font-family: 'Roboto', sans-serif;
-    font-size: 26px;
+    font-size: 1.3rem;
+    
     color: rgba(0, 0, 0, .6);
+    
 }
 
 .about-links-container {
@@ -183,7 +187,7 @@ body, .main {
         top: 500px;
         left: 35px;
         font-size: 3.5rem;
-       
+        text-shadow: 2px 2px 12px rgb(15, 14, 14);
         }
 
     .about-photo {
@@ -191,6 +195,8 @@ body, .main {
         min-height: 580px;
         float: left;
         object-fit: cover;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;        
+        border-radius: 3px;
     }
 
     .about-section {
@@ -213,12 +219,20 @@ body, .main {
 
     .about-header {
         text-align: left;
-        margin-left: 15px;
+        margin-left: .5em;
+        font-size: 40px;
+        
     }
 
     .about-content {
-        padding: 1em;
+        padding: .7em;
         text-align: left;
+        line-height: 1.6em;
+    }
+
+    .about-content-container {
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        min-width: 700px;
     }
 
 }
