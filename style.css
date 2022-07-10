@@ -166,6 +166,7 @@ max-width: 380px;
 }
 
 
+/*  */
 
 
 
@@ -174,12 +175,62 @@ max-width: 380px;
 
 
 
+/* Contact section */
+.contact-image {
+    height: auto;
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: -1em;
+}
 
+
+
+.contact-me-container {
+    background-color: #1993b0;
+    color: #fff;
+}
+
+.contact-title {
+    font-size: 4em;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+}
+
+.contact-info-container {
+    padding: 2em;
+}
+
+.contact-message {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9em;
+    padding: 0em 1em;
+    text-align: left;
+}
+
+.contact-info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+}
+
+
+.address-info {
+    display: block;
+}
+
+.contact-link-container {
+    text-align: center;
+    padding: 2em;
+}
 
 
 
 
 /*  */
+
+
+
+
+
 
 
 
