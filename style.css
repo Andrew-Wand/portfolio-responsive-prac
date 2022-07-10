@@ -110,11 +110,12 @@ body, .main {
 .work-title {
     margin-top: 4em;
     text-align: center;
+    font-size: 2em;
 }
 
 .work-content-container {
 margin-top: 1em;    
-margin-bottom: 1em;    
+margin-bottom: 4em;    
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -134,7 +135,37 @@ max-width: 380px;
 
 .item-title {
     display: flex;
+    justify-content: space-between;
+    font-family: 'Playfair Display', sans-serif;
+    padding: .5em;
+    margin-left: 1em;
+    margin-bottom: -1em;
 }
+
+.item-links {
+    padding: 1em;
+}
+
+.item-link {
+    font-size: 1.8em;
+    color: #000;
+    text-decoration: none;
+    margin-left: .5em;
+}
+
+.descrip-container {
+    padding: 0em 1.5em 1.5em 1.5em;
+    margin-bottom: 2.3em;
+}
+
+.item-descrip {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, .6);
+    font-size: 1.3em;
+    
+}
+
+
 
 
 
